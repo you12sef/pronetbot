@@ -18,6 +18,7 @@ def receive_message():
     else:
         data_json = request.get_json()
         data = message(data_json)
+        save_sender_id(data["id"])
         try:
             bot_.send_manage(data)
         except:
@@ -25,10 +26,6 @@ def receive_message():
         
     return 'DONE'
 
-
-#@app.route("/privacy", methods=["GET"])
-#def submit():   
-#       return 'there is no privacy.'
 
 def verify_token(token):
 	if token == VERIFY_TOKEN:
@@ -58,7 +55,13 @@ def message(message):
                     return {'id':id,'text':text,'type':type_}
             except:
                 return 'UNKOWN MESSAGE TYPE'
-    
+ 
+def save_sender_id(id):
+     with open(r"bot\users_id.text","a") as file:
+         with open (r"bot\users_id.text","r") as _file_:
+             get_ids = _file_.read()
+             if not (id in get_ids):
+                 file.write(f"{id}\n")
 
 if __name__=='__main__':
     app.run()
