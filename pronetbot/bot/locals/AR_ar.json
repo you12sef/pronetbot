@@ -1,0 +1,93 @@
+{"elements":{
+        "menu":{
+            "towers":{
+                    "title":"مواقع الأبراج",
+                    "subtitle":"أعرف الأبراج القريبة منك",
+                    "buttons":{
+                            "button1":"عرض المواقع",
+                            "button2":"أقرب برج ليك"}
+                        },   
+            "profiles":{
+                    "title":"أسعار الباقات",
+                    "subtitle":"أعرف أسعار الباقات اللي تناسبك",
+                    "buttons":{
+                            "button1":"عرض الأسعار"}
+                        },   
+            "subscribe":{
+                    "title":"الاشتراك مع برونت",
+                    "subtitle":"طريقة الاشتراك و أسعار الاشتراكات",
+                    "buttons":{
+                            "button1":"عرض"}
+                        },   
+            "contact":{
+                    "title":"اتصل بنا",
+                    "subtitle":" ",
+                    "buttons":{
+                            "button1":"اتصل بالرقم الأول",
+                            "button2":"اتصل بالرقم الثاني"}
+                        }, 
+            "suscribtions":{
+                    "title":"للمشتركين",
+                    "subtitle":"عرض خدمات المشتركين",
+                    "buttons":{
+                            "button1":"عرض"}
+                        }},
+        "locations":{
+            "soqaljoma":{
+                "title":"برج سوق الجمعة",
+                "subtitle":"سيمافرو ولاد الحاج بجانب سوق العاشوري",
+                "buttons":{
+                        "button1":"أعرض على الخريطة"}            
+
+                        },
+            "moneder":{
+                "title":"برج سيدي منيذر",
+                "subtitle":"وسط البلاد",
+                "buttons":{
+                        "button1":"أعرض على الخريطة"}            
+
+                        },
+            "fornaj":{
+                "title":"برج الفرناح",
+                "subtitle":"نهاية شارع الغاز",
+                "buttons":{
+                        "button1":"أعرض على الخريطة"}            
+
+                        },
+            "ainzara":{
+                "title":"برج عين زارة",
+                "subtitle":"بالقرب من مدرسة بن حيان",
+                "buttons":{
+                        "button1":"أعرض على الخريطة"}            
+
+                        },
+            "zawia":{
+                "title":"برج الزاوبة",
+                "subtitle":"شارع جمال عبدالناصر",
+                "buttons":{
+                        "button1":"أعرض على الخريطة"}            
+
+                        }},
+
+        "profiles":{
+            "zawia":{
+                "title":"الباقات المحدودة",
+                "subtitle":" ",
+                "buttons":{
+                        "button1":"عرض"},            
+            "zawia":{
+                "title":"الباقات الغير محدودة",
+                "subtitle":" ",
+                "buttons":{
+                        "button1":"عرض"}            
+
+                        }}
+
+
+
+        }
+                        
+
+    }
+
+}
