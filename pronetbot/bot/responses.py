@@ -128,7 +128,7 @@ class response():
                 return Menu.list_menu([
 
                 {('الباقات المحدودة','',profiles['LIMIT']):{'عرض':'<limit>'}},
-                {('الباقات الغير محدودة','',profiles['UNLIMIT']):{'عرض':'<limit>'}},
+                {('الباقات الغير محدودة','',profiles['UNLIMIT']):{'عرض':'<unlimit>'}},
             ]),[QuickReply('الرجوع','<MENUs>',icons['BACK'],QuickReplyType.TEXT).get_content()]
                 
             case '<unlimit>':
